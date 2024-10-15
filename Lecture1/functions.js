@@ -5,9 +5,6 @@ function addTwo(num) {
 }
 addTwo(5);
 function getUpper(val) {
-
-     // This method is Problematic and doesnot updates the value of val
-   // val.toUpperCase();
-   // return val;
+    return val.toUpperCase();
 }
 console.log(getUpper("hello"));

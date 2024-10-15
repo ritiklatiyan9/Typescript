@@ -7,8 +7,8 @@ addTwo(5);
 
 
 function getUpper(val : string) {
-    val.toUpperCase();
-    return val;
+    return val.toUpperCase();
+
 }
 
 console.log(getUpper("hello"));
